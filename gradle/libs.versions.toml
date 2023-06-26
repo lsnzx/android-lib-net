@@ -1,0 +1,106 @@
+[versions]
+appName = "tv"  #// app  name
+versionCode = "6"
+versionName = "0.0.23061501"
+#httpApiServerUrlDevelop = "http://190.188.2.180:6060/"  #// 测试地址 6065
+#httpApiServerFileDevelop = "http://190.188.2.180:8888/"
+#httpApiServerUrlAlpha = "http://190.188.2.180:6060/"
+#httpApiServerFileAlpha = "http://190.188.2.180:8888/"
+#httpApiServerUrlRelease = "http://190.188.2.180:6060/"
+#httpApiServerFileRelease = "http://190.188.2.180:8888/"
+#httpApiServerUrlDevelop = "http://190.188.2.179:6060/"  #// 测试地址 6065
+#httpApiServerFileDevelop = "http://190.188.2.179:8888/"
+#httpApiServerUrlAlpha = "http://190.188.2.179:6060/"
+#httpApiServerFileAlpha = "http://190.188.2.179:8888/"
+#httpApiServerUrlRelease = "http://190.188.2.179:6060/"
+#httpApiServerFileRelease = "http://190.188.2.179:8888/"
+httpApiServerUrlDevelop = "http://120.77.248.168:6060/"  #// 测试地址 6065
+httpApiServerFileDevelop = "http://120.77.248.168:8888/"
+httpApiServerUrlAlpha = "http://120.77.248.168:6060/"
+httpApiServerFileAlpha = "http://120.77.248.168:8888/"
+httpApiServerUrlRelease = "http://120.77.248.168:6060/"
+httpApiServerFileRelease = "http://120.77.248.168:8888/"
+#@ 基础属性
+minSdk = "21"
+compileSdk = "33"
+targetSdk = "31"
+appId = "com.pmisy.tv"
+#@ 基础lib
+ktx = "1.9.0"
+appcompat = "1.6.1"
+material = "1.8.0"
+constraintLayout = "2.1.4"
+#@ libs
+hilt = "2.44"
+gson = "2.9.0"
+okhttpLogging = "4.9.3"
+retrofit = "2.9.0"
+leakcanary = "2.10"
+reflect = "1.7.0"
+activityKtx = "1.6.1"
+fragmentKtx = "1.5.5"
+lifecycle = "2.5.1"
+navigation = "2.5.3"
+coroutines = "1.5.1"
+coil = "2.3.0"
+glide = "4.15.0"
+room = "2.5.0"
+lottie = "6.0.0"
+calligraphy3 = "3.1.1"
+viewpump = "2.0.3"
+constraintlayout = "2.1.4"
+recyclerview = "1.2.0"
+refresh = "2.0.5"
+xmkv = "1.2.15"
+#@ ohther
+umid = "6475b1bba1a164591b2725ae" #友盟APPId
+umComm = "9.5.6"
+umAsms = "1.6.3"
+umApm = "1.9.1"
+arouter = "1.5.2"
+messageSecret = " "
+[libraries]
+material = { module = "com.google.android.material:material", version.ref = "material" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "ktx" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintLayout" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-savedstate = { module = "androidx.lifecycle:lifecycle-viewmodel-savedstate", version.ref = "lifecycle" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle" }
+androidx-constraintlayout-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-recyclerview-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation" }
+jetbrains-kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "reflect" }
+jetbrains-kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "reflect" }
+jetbrains-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+jetbrains-kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+okhttp3-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttpLogging" }
+retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+leakcanary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hilt" }
+hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
+airbnb-android-lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+github-inflationx-calligraphy3 = { module = "io.github.inflationx:calligraphy3", version.ref = "calligraphy3" }
+github-inflationx-viewpump = { module = "io.github.inflationx:viewpump", version.ref = "viewpump" }
+github-refresh-kernel = { module = "io.github.scwang90:refresh-layout-kernel", version.ref = "refresh" }
+github-refresh-header = { module = "io.github.scwang90:refresh-header-material", version.ref = "refresh" }
+github-refresh-footer = { module = "io.github.scwang90:refresh-footer-classics", version.ref = "refresh" }
+mmkv = { module = "com.tencent:mmkv", version.ref = "xmkv" }
+umeng-umsdk-common = { module = "com.umeng.umsdk:common", version.ref = "umComm" }
+umeng-umsdk-asms = { module = "com.umeng.umsdk:asms", version.ref = "umAsms" }
+umeng-umsdk-apm = { module = "com.umeng.umsdk:apm", version.ref = "umApm" }
+alibaba-arouter-api = { module = "com.alibaba:arouter-api", version.ref = "arouter" }
+alibaba-arouter-compiler = { module = "com.alibaba:arouter-compiler", version.ref = "arouter" }
